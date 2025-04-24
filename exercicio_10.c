@@ -1,10 +1,35 @@
+/*
+    Instituto Federal de Mato Grosso do Sul
+    Curso: Engenharia de Computação
+    Unidade curricular: Algoritmos I
+    Nome: Pedro Henrique Oliveira Campanari
+    E-mail: pedro.campanari@estudante.ifms.edu.br
+    Data: 23/04/2025
+
+    Explicação: "Este código utiliza uma biblioteca essencial(stdio), 
+        Sendo stdio.h utilizada para coletar e mostrar resultados ao cliente. Ao 
+        decorrer do código, foram declaradas as variáveis(entrada, bebida e opção). 
+        No próximo passo, foi iniciado um loop para coleta da entrada e bebida, é 
+        utilizado as funções(printf e scanf) para coleta da entrada e bebida, tendo 
+        em vista que o loop possui validações(Se algum valor é diferente do intervalo 
+        de numeros do menu). Dentro do loop, é analisado os valores da entrada e bebida:
+
+        - SE o valor da entrada E bebida forem diferente do menu, você não escolheu nada. 
+        - SE o valor da entrada for inválido E a bebida for Válida, ou o inverso, pergunta
+        ao usuário se ele deseja prosseguir sem tal entrada/bebida. SENÃO, pergunta somente
+        a alteração necessária. 
+
+        Após, é mostrado o resultado do pedido. "
+*/
+
+
 #include <stdio.h>
 
 int main() {
     int entrada, bebida, opcao;
     do {
         printf("\n\n\n\n*********************************************\n*\n*\n*\n");
-        printf("*            LIVIA's Restaurant             *");
+        printf("*            CAMPA's Restaurant             *");
         printf("\n*            Entrada:                       *");
         printf("\n*               1 - Fritas                  *");
         printf("\n*               2 - Calabresa               *");

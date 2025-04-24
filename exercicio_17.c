@@ -1,3 +1,21 @@
+/*
+    Instituto Federal de Mato Grosso do Sul
+    Curso: Engenharia de Computação
+    Unidade curricular: Algoritmos I
+    Nome: Pedro Henrique Oliveira Campanari
+    E-mail: pedro.campanari@estudante.ifms.edu.br
+    Data: 24/04/2025
+
+    Explicação: "Este código utiliza uma biblioteca essencial (stdio), 
+        sendo stdio.h utilizada para coletar e mostrar resultados ao cliente. 
+        Foram declaradas as variáveis (cambio, numeros e i). Através do uso das funções 
+        (printf e scanf), o programa coleta 5 valores inteiros do usuário e os armazena em um vetor. 
+
+        Em seguida, é utilizado um loop para ordenar os valores de forma crescente, 
+        utilizando trocas entre elementos vizinhos com auxílio da variável cambio. 
+        Por fim, os valores ordenados são retornados ao usuário."
+*/
+
 #include <stdio.h>
 
 int main () {

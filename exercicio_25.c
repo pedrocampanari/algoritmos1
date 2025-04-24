@@ -1,3 +1,23 @@
+/*
+    Instituto Federal de Mato Grosso do Sul
+    Curso: Engenharia de Computação
+    Unidade curricular: Algoritmos I
+    Nome: Pedro Henrique Oliveira Campanari
+    E-mail: pedro.campanari@estudante.ifms.edu.br
+    Data: 24/04/2025
+
+    Explicação: "Este código utiliza duas bibliotecas essenciais (stdio e stdlib), 
+        sendo stdio.h usada para coletar e mostrar resultados ao cliente, 
+        e stdlib.h para gerar números aleatórios. O programa pede ao usuário para escolher 
+        6 números entre 0 e 25.
+
+        Para cada número inserido, o código valida se o número está dentro do intervalo 
+        permitido. Em seguida, um número aleatório é sorteado entre 0 e 24 (usando rand() % 25). 
+        Se o número sorteado coincidir com algum dos números inseridos, o programa informa 
+        ao usuário que ele foi sorteado. Caso contrário, ao final, o programa informa que o usuário 
+        não foi sorteado."
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

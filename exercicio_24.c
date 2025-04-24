@@ -1,3 +1,22 @@
+/*
+    Instituto Federal de Mato Grosso do Sul
+    Curso: Engenharia de Computação
+    Unidade curricular: Algoritmos I
+    Nome: Pedro Henrique Oliveira Campanari
+    E-mail: pedro.campanari@estudante.ifms.edu.br
+    Data: 24/04/2025
+
+    Explicação: "Este código utiliza uma biblioteca essencial (stdio), 
+        sendo stdio.h utilizada para coletar e mostrar resultados ao cliente. 
+        Foram declaradas as variáveis (idade, sexo, def e nacionalidade). 
+        O código solicita ao usuário sua idade, e, se maior de 18 anos, pergunta o sexo 
+        e a nacionalidade, considerando regras específicas para o alistamento militar.
+
+        Para homens brasileiros, o alistamento é obrigatório, enquanto para homens de 
+        outras nacionalidades e mulheres, o alistamento não é obrigatório. O código 
+        também valida a entrada de sexo e responde de acordo com a informação fornecida."
+*/
+
 #include <stdio.h>
 
 int main() {
